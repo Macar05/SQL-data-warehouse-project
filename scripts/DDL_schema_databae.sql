@@ -10,7 +10,7 @@ warnoing:
   Running this script will drop the entire database 'datawarehouse' data base if exists.
   All data in the database will be deleted permanentaly, proceed with caution and ensure tou have proper backup before running.
 
-
+*/
 
 
 
