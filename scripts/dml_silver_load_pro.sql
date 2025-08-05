@@ -1,3 +1,25 @@
+/*
+===================================================================
+
+stored procedure load silver layer(bronze->silver)
+===================================================================
+script purpose
+this stored procedure loads data into 'silver' schema  from bronze layer.
+it performs the following actions
+-truncate the silver tables before loading data
+-uses the inser  command to load data from bronze to silver tables
+parameters:
+  none.
+this stored procedure does not accept any arguments or returns any values.
+
+use example
+ exec silver.load_pro;
+  ======================================================================
+*/
+
+
+
+
 create or alter procedure silver.Load_pro as
 begin
   begin try
